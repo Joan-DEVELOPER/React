@@ -1,0 +1,16 @@
+.bar {
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    width: 90%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    justify-self: center;
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+}
