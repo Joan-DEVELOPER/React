@@ -1,0 +1,40 @@
+// Estilos para tema oscuro
+[data-theme="dark"] {
+  --bg-color: rgb(44, 44, 44);
+  --font-color: white;
+  --hovered-bg: rgb(68, 68, 68);
+}
+
+.ButtonList {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  outline: auto;
+
+  .like {
+    button {
+      width: 150px;
+      height: 70px;
+      padding: 5px;
+      margin: 0px 15px;
+      color: rgb(1, 165, 1);
+      white-space: nowrap;
+      letter-spacing: 1px;
+      background-color: var(--bg-color);
+    }
+
+    button:hover {
+      background-color: var(--hovered-bg);
+    }
+
+    .likedBtn {
+      font-size: 20px;
+      background-color: var(--bg-color);
+    }
+
+    .unlikedBtn {
+      background-color: var(--bg-color);
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  outline: none;
+  border: none;
+}
+
+// Estilos para tema oscuro
+[data-theme="dark"] {
+  --bg-color: rgb(44, 44, 44);
+  --font-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+.mainBtn {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+.contentBody {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+
+  button {
+    color: var(--font-color);
+  }
+
+  .videoMedia {
+    width: 100%;
+    outline: auto;
+
+    .channelInfo {
+      display: flex;
+      margin: 10px;
+      gap: 10px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid green;
+    }
+
+    .chanelDesc {
+      width: 100%;
+      outline: auto;
+    }
+  }
+}

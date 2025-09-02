@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  gap: 30vw;
+  align-items: center;
+  width: 100%;
+}
+
+.infoBtn {
+  display: flex;
+  height: 40px;
+  gap: 15px;
+
+  .notify {
+    background-color: transparent;
+    border-radius: 100%;
+  }
+
+  .subscribe {
+    background-color: red;
+    width: 100%;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 16px;
+    padding: 7px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 7px;
+  }
+}
